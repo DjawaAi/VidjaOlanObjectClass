@@ -1,5 +1,6 @@
-public class Main {
-    public static void main(String[] args) {
+public class Maain {
+
+    public static void main(String[] jhgf) {
         Author Автор = new Author("Ричард", "Девид", "Бах");
         Book Книга = new Book("Иллюзии", "Ричард Бах", 2021);
 
@@ -28,4 +29,5 @@ public class Main {
         Книга1.setYearPublication(1987);
         System.out.println("Книга1.getYearPublication() = " + Книга1.getYearPublication());
     }
+
 }
