@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Author Автор = new Author("Ричард", "Девид", "Бах");
-        Book Книга = new Book("Иллюзии", "Ричард Бах", 2021);
+        Book Книга = new Book("Иллюзии", Автор, 2021);
 
         System.out.println("Автор.getFirstName() = " + Автор.getFirstName());
         System.out.println("Автор.getPatronymic() = " + Автор.getPatronymic());
@@ -16,7 +16,7 @@ public class Main {
         System.out.println();
 
         Author Автор1 = new Author("Блоссий", "Эмилий", "Драконций");
-        Book Книга1 = new Book("Мифологические поэмы", "Э. Б. Драконций", 2001);
+        Book Книга1 = new Book("Мифологические поэмы", Автор1, 2001);
 
         System.out.println("Автор1.getFirstName() = " + Автор1.getFirstName());
         System.out.println("Автор1.getPatronymic() = " + Автор1.getPatronymic());
