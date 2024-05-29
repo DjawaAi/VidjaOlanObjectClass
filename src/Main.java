@@ -27,5 +27,21 @@ public class Main {
 
         Книга1.setYearPublication(1987);
         System.out.println("Книга1.getYearPublication() = " + Книга1.getYearPublication());
+
+        System.out.println();
+        System.out.println(Книга);
+        System.out.println(Книга1);
+        System.out.println();
+        System.out.println(Автор);
+        System.out.println(Автор1);
+        System.out.println();
+        System.out.println("Книга: " +Книга.equals(Книга1));
+        System.out.println("Книга: " +Книга.hashCode());
+        System.out.println("Книга: " +Книга1.hashCode());
+        System.out.println();
+
+        System.out.println("Автор: " +Автор.equals(Автор1));
+        System.out.println("Автор: " +Автор.hashCode());
+        System.out.println("Автор: " +Автор1.hashCode());
     }
 }
